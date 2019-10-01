@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
     {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:-6.9715684,110.4879106="));
+        intent.setData(Uri.parse("geo:0,0?q=-6.984350,110.416806"));
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         } else {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity
     {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:081231176697"));
+        intent.setData(Uri.parse("tel:083842856474"));
         startActivity(intent);
     }
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity
     {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("message/rfc822");
-        intent.putExtra(Intent.EXTRA_EMAIL, "albamillentry11@gmail.com");
+        intent.putExtra(Intent.EXTRA_EMAIL, "saintwill06@gmail.com");
 
         startActivity(Intent.createChooser(intent, "Send Email"));
     }
