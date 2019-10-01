@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Data_Diri</string>
+    <string name="hobby"><![CDATA[Hobby : Bahagia & Belajar]]></string>
+    <string name="nama">Nama : Alba Alfath Millentry</string>
+    <string name="nim">NIM : A11.2017.10089</string>
+    <string name="foto">TODO</string>
+    <string name="deskripsi">Deskripsi Diri:</string>
+    <string name="isi_des"><![CDATA[Nama saya Alba Alfath Millentry. Teman-teman biasa memanggil saya Adam Levine. Saya lahir di Semarang tanggal 21 Oktober 1999. Riwayat pendidikan saya adalah SD-> SD Islam Darul Falah, SMP-> SMP Negeri 34 Semarang, SMA-> SMA Negeri 10 Semarang, Kuliah-> Universitas Dian Nuswantoro.]]></string>
+    <string name="alamat">Alamat</string>
+    <string name="telepon">Telepon</string>
+    <string name="email">E-Mail</string>
+</resources>
